@@ -1,0 +1,56 @@
+body {
+   background-image: url(https://images2.alphacoders.com/103/1036283.jpg);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+h2 {
+    text-align: center;
+    background-color: rgb(228, 179, 213);
+    color: rgb(8, 8, 8);    
+}
+header {
+    border-bottom: 1px solid;
+    padding: 3px;
+    margin-top: 6px;
+    background-color: rgb(214, 128, 211);
+   
+}
+p {
+    color: rgb(10, 9, 9);
+}
+.about{
+    text-align: center;
+    color: rgb(243, 242, 242);
+    font-size: 20px;
+}
+.services{
+    text-align: center;
+    color: rgba(250, 248, 249, 0.753);
+    font-family: 30px;
+}
+nav {
+            display: flex;
+            justify-content: center;
+            background:  rgb(96, 78, 201);
+        }
+
+        nav a {
+           
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+    section {
+        background-color: rgb(136, 124, 241);
+
+    }
+    
+    
+   
+
+       
+
+ 
