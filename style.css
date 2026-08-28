@@ -55,11 +55,19 @@ form{
         min-width: 0;
         padding: 15px;
     }
+}
     @media(max-width: 600px) {
         h1{
             font-size: 100px;
             color: red;
         }
+    }
+
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 68px;
+            color: blue;
+        }
         
     }
-}
+        
