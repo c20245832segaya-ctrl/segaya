@@ -1,56 +1,38 @@
-body {
-   background-image: url(https://images2.alphacoders.com/103/1036283.jpg);
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    
-}
-h2 {
+body{
     text-align: center;
-    background-color: rgb(228, 179, 213);
-    color: rgb(8, 8, 8);    
 }
-header {
-    border-bottom: 1px solid;
-    padding: 3px;
-    margin-top: 6px;
-    background-color: rgb(214, 128, 211);
-   
+ul {
+    list-style: none;
 }
-p {
-    color: rgb(10, 9, 9);
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.about{
-    text-align: center;
-    color: rgb(243, 242, 242);
-    font-size: 20px;
+nav ul{
+    display:flex;
+    gap: 20px;
 }
-.services{
-    text-align: center;
-    color: rgba(250, 248, 249, 0.753);
-    font-family: 30px;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
 }
-nav {
-            display: flex;
-            justify-content: center;
-            background:  rgb(96, 78, 201);
-        }
+main section{
+    flex: 1;
+    min-width: 280px;
+    border: 2px solid black;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Services{
+    padding: 0 50px;
 
-        nav a {
-           
-            color: #fff;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            transition: background 0.3s;
-        }
-    section {
-        background-color: rgb(136, 124, 241);
-
-    }
-    
-    
-   
-
-       
-
- 
+}
