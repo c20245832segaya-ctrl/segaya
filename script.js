@@ -25,6 +25,9 @@ console.log(greet("Mayong aga", ["sandra", "bai", "soy", "tol", "namnueng"]));
 
 const heading = document.querySelector("h1");
 heading.textContent = "Jose Margil P. Segaya"
+heading.style.color = "purple"
+heading.style.backgroundColor = "yellow"
+heading.style.fontSize = "60px"
 console.log(heading.textContent);
 
 const contactHeading = document.querySelector("#contact h2");
