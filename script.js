@@ -14,5 +14,12 @@ console.log(`Number: ${number} `);
 console.log(`Address: ${address} `);
 console.log(addnumber);
 
+function greet(greetings,names=[]){
+    if (Array.isArray(names));{
+    names=names.join(" , ")
+}
+    return  `${greetings} sa enyu, ${names}`;
 
+}   
+console.log(greet("Mayong aga", ["sandra", "bai", "soy", "tol", "namnueng"]));
 
