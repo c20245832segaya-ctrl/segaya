@@ -24,11 +24,13 @@ function greet(greetings,names=[]){
 console.log(greet("Mayong aga", ["sandra", "bai", "soy", "tol", "namnueng"]));
 
 const heading = document.querySelector("h1");
-console.log(heading);
+heading.textContent = "Jose Margil P. Segaya"
+console.log(heading.textContent);
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
 const projectHeading = document.querySelector("#services h2");
 console.log(projectHeading);
+
 
